@@ -1,0 +1,366 @@
+*	{
+
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+
+body	{
+
+	font-family: 'Cardo', serif;
+	font-family: 'Montserrat', sans-serif;
+	background-color: rgb(255, 241, 230);
+	
+}
+
+header {
+
+	display: flex;
+	background-image: linear-gradient(to top, #fad0c4 0%, #ffd1ff 100%);
+	width: 100%;
+	justify-content: space-between;	
+	padding-left: 20px;
+	padding-right: 20px;
+	position: sticky top;
+
+}
+
+a .nav-link {
+
+	color: background-image: linear-gradient(to top, #5f72bd 0%, #9b23ea 100%);
+
+}
+
+.logo-interno img {
+
+	display: flex;
+	align-content: left;
+
+}
+
+.principal img	{
+	
+	width: 100%;	
+	display: flex;
+	image-rendering: center;
+	margin-top: 30px;
+	padding: 20px;
+}
+
+.principal h1	{
+
+	display: flex;
+	justify-content: space-around;
+	margin-top: 70px;
+
+}
+
+.animate__animated	{
+
+	margin: 30px;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif; 
+	font-weight: 500;	
+	letter-spacing: 5px;
+	font-size: 50px;
+
+}
+
+section	img {
+
+	width: 100%;
+
+}
+
+main	{
+
+	display: flex;
+	flex-direction: column;
+	font-family: 'Cardo', serif;
+	width: 600px;
+  	margin: 20px auto;
+  	padding-top: 20px;
+
+}
+
+main .titulo {
+
+	font-family: 'cardo', serif;
+	font-style: italic;
+	font-weight: 400;
+	font-size: 40px;
+	text-align: center;
+
+}
+
+main .texto_inicio	{
+
+	font-size: 18px;
+	line-height: 140%
+	font-style: italic;
+	font-family: 'cardo', serif;
+	text-align: center;
+	padding: 20px;
+
+}
+
+.subtitulo	{
+
+	font-family: 'Cardo', serif;
+	font-style: italic;
+	font-size: 400;
+	font-weight: 400;
+	text-align: center;
+	background-color: rgb(222, 170, 255);
+	opacity: 0.5;
+	color: white;
+	padding: 10px;
+	
+}
+
+.subtitulo .animate__animated {
+
+	font-family: 'Cardo', serif;
+	font-style: italic;
+	font-size: 40px;
+	font-weight: 200;
+	text-align: center;
+	color: white;
+
+}
+
+section	.biografia {
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-flow: row wrap;
+	flex-basis: 100%;
+	margin: 20px auto;
+
+}
+
+.biografia img {
+
+	padding: 20px;
+	height: auto;
+	width: auto;
+	justify-content: right;
+	align-content: right;
+
+}
+
+.biografia_1	{
+
+	font-family: 'Cardo', serif;
+	font-size: 18px;
+	font-style: italic;
+	width: 600px;
+	padding right: 600px;
+	padding-left: 50px;
+  	
+}
+
+.container {
+
+	display: flex;
+	margin-top: 40px;
+
+}
+
+.row img {
+
+	margin: 25px;
+
+}
+
+.blog_1	{
+
+	font-family: 'Cardo', serif;
+	font-style: italic;
+	font-weight: 400;
+	font-size: 30px;
+	width: 800px;
+  	text-align: left;
+  	margin-left: 20px;
+	
+}
+
+.blog_2 {
+
+	font-family: 'Cardo', serif;
+	font-size: 18px;
+	width: 700px;
+	margin-left: 25px;
+
+}
+
+.card-text {
+
+	margin-left: 25px;
+
+}
+
+.title	{
+
+	text-align: left;
+	padding: 20px;
+	margin: auto;
+
+}
+
+aside {
+
+	display: flex;
+	flex-direction: row;
+	margin: 20px;	
+
+}
+
+.title	{
+
+	font-family: 'Cardo', serif;
+	font-style: italic;
+	font-weight: 400;
+	font-size: 30px;
+	width: 800px;
+  	margin: auto;
+  	margin-top: 20px;
+  	text-align: left;
+	
+}
+
+aside {
+
+	display: flex;
+	justify-content: space-between;
+	margin: auto;
+	padding: auto;
+
+}
+
+.eventos {
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 20px;
+	padding: 20px;
+
+}
+
+div .eventos:hover p {
+
+    visibility: visible;
+
+}
+
+div .eventos img:hover {
+
+	opacity: 0.5;
+
+}
+
+.clubinterno img {
+
+	width: 100%;
+
+}
+
+.negociemos img {
+
+	width: 100%;
+	margin-top: 40px;	
+}
+
+.organizacion1	{
+
+	font-family: 'Cardo', serif;
+	font-style: italic;
+	font-weight: 400;
+	font-size: 30px;
+
+}
+
+.organizacion2 {
+
+	font-family: 'Cardo', serif;
+	font-size: 18px;
+
+}
+
+footer	{
+
+	background-image: linear-gradient(to top, #fad0c4 0%, #ffd1ff 100%);
+	display: flex;
+	flex-flow: row wrap;
+	width: 100%;
+	flex-direction: column;
+	justify-content: space-around;	
+	margin-top: 50px;
+	
+}
+
+.contacto {
+
+	font-family: 'Montserrat', sans-serif; 	
+	font-size: 30px;
+	text-align: center;
+	padding: 20px;
+	justify-content: center;
+
+}
+
+form	.contacto_1	{
+
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+	font-size: 20px;
+
+}
+
+form	.form-check	{
+
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+	font-size: 16px;
+
+}
+
+.form {
+
+	align-content: center;
+	margin-left: 150px;
+	margin-right: 150px;
+	margin-top: 50px;
+	font-family: 'Montserrat', sans-serif;
+
+}
+
+.redes	{
+
+	display: flex;
+	flex-direction: row;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	align-items: center;
+	margin-left: 150px;
+	margin-right: 150px;
+	margin-top: 90px;
+	font-size: 50px;
+	color: black;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/*-----------------------*/
