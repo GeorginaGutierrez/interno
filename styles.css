@@ -20,8 +20,6 @@ header {
 	background-image: linear-gradient(to top, #fad0c4 0%, #ffd1ff 100%);
 	width: 100%;
 	justify-content: space-between;	
-	padding-left: 20px;
-	padding-right: 20px;
 	position: sticky top;
 
 }
@@ -45,7 +43,7 @@ a .nav-link {
 	display: flex;
 	image-rendering: center;
 	margin-top: 30px;
-	padding: 20px;
+
 }
 
 .principal h1	{
@@ -109,7 +107,7 @@ main .texto_inicio	{
 
 	font-family: 'Cardo', serif;
 	font-style: italic;
-	font-size: 400;
+	font-size: 40px;
 	font-weight: 400;
 	text-align: center;
 	background-color: rgb(222, 170, 255);
@@ -353,14 +351,4 @@ form	.form-check	{
 
 }
 
-
-
-
-
-
-
-
-
-
-
-/*-----------------------*/
+	
